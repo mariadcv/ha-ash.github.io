@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Fascinate+Inline|Josefin+Sans|Playfair+Display|Raleway|Slabo+27px');
+
+body
+{
+  background-image: url(../imagenes/laura2.png);
+  margin: 10px auto;
+  width: 80%;
+
+}
+header>h1
+{
+	letter-spacing: 5px; /*Espacio entre letras*/
+	text-transform: uppercase;/*Transformación del texto a mayúsculas*/
+	font-weight:bold;/*Fuente en negritas*/
+  text-align: center;/*Alineación del texto*/
+  text-shadow:rgba(240, 169, 13, 0.75) 6px 6px 8px;
+   /* los tres números indican distancia horizontal, vertical y difuminado*/
+   font-family: 'Josefin Sans', sans-serif;
+}
+.logo-left
+{
+	float:left;
+	padding: 50px 0px 0px 20px; /*Superior, derecho, inferior, izquierdo*/
+  width: 403px;
+	height: 54px;
+}
+.logo-right
+{
+	float: right;
+	padding: 20px 20px 0px 20px;
+	width: 120px;
+	height: 120px;
+}
+header
+{
+  width:100%; /* Establecemos que el header abarque el 100% del documento */
+  overflow:hidden; /* Eliminamos errores de float */
+  background-color:#FA8072;
+  margin-bottom:0px;
+  padding: 0px;
+  border-radius: 25px 25px 0px 0px; /*superior, derecho, inferior, izquierdo*/
+  border-style: none;
+}
+.contenedor
+{
+  padding: 10px 20px 10px 20px; /*Superior, derecho, inferior, izquierdo*/
+	background: rgba(255, 255, 255, 0.67);
+	border-radius: 2em; /* redondea el borde*/
+  box-shadow: 0px 5px 3px rgba(0,0,0, .4);
+}
+nav
+{
+  display: block;
+  width: 100%;
+  text-align: center;
+font-family: 'Abril Fatface', cursive;
+}
+nav ul
+{
+	list-style: none;
+}
+nav li
+{
+    display: inline-block;
+    margin-right: 2px;
+    margin-top: 0.2em;
+  }
+section
+{
+	float: left;
+	width: 70%;
+	text-align:justify;
+	margin-top: 10px;
+}
+article
+{
+	margin-bottom: 5px;
+	padding: 10px;
+	border-radius: 10px 10px 10px 10px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #37CEC5;
+    font-family: 'Slabo 27px', serif;
+}
+.boton
+{
+  background-color: #37CEC5;
+  color:#000;
+  display: inline-block;
+  font-size: 1em;
+  margin: 5px;
+  padding: 10px 0px;
+  text-align: center;
+  width: 140px;
+  text-decoration: none;
+  box-shadow: 0px 3px 5px #37CEC5;
+}
+.boton.redondo
+{
+  border-radius: 30px;
+}
+.boton.violeta
+{
+  background-color: #37CEC5;
+	box-shadow: 0px 3px 5px #14A79E;
+}
+.boton:hover
+{
+  background-color: #F08080;
+	box-shadow: 0px 03px 5px rgb(181, 113, 242);
+	padding-top: 7px;
+	color: #fff;
+}
+aside{
+	float: right;
+	width: 30%;
+	text-align: justify;
+	margin-top: 0px;
+}
+blockquote
+{
+	margin-bottom: 5px;
+	padding: 10px;
+	border-radius: 10px 10px 10px 10px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #37CEC5;
+}
+footer
+{
+	width:100%; /* Establecemos que el header abarque el 100% del documento */
+	overflow:hidden; /* Eliminamos errores de float */
+	background-color:#FA8072;
+	margin-bottom:0px;
+	padding: 0px;
+	border-radius: 0px 0px 25px 25px; /*superior, derecho, inferior, izquierdo*/
+	border-style: none;
+}
+.izquierda
+{
+	float: left;
+}
+.derecha
+{
+	float: right;
+	padding-right: 20px;
+}
+footer>p
+{
+text-align: center;
+color: rgb(2, 74, 20);
+font-size: 10px;
+}
+.botonredes
+{
+display: inline-flex;
+width: 15px;
+height: 15px;
+padding: 10px;
+background-color:rgb(22, 22, 23);
+border-radius: 100%;
+}
+.botonredes img
+{
+  width: 15px;
+  height: 15px;
+}
+.botonredes:hover
+{
+background-color:#10DFD5;
+border-radius: 100%;
+}
+.enlace-footer
+{
+  font-size: 10px;
+  color: rgb(36, 41, 38);
+  padding-right: 5px;
+  text-decoration: none;
+}
+.enlace-footer:hover
+{
+  color: #37CEC5;
+  text-shadow: 0px 0px 5px rgb(187, 114, 252);
+  text-decoration: underline;
+}
+table
+{
+  width: 90%;
+  margin:auto;
+}
+th.titulo
+{
+	height: 50px;
+}
+td.center
+{
+	text-align: center;
+  vertical-align: middle;
+}
+td
+{
+  padding: 5px;
+}
+tr:nth-child(odd)
+{
+  background-color:#37CEC5;
+}
+tr:nth-child(even)
+{
+  background-color:rgba(249, 249, 249, 0.76);
+}
